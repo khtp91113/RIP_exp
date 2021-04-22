@@ -1,0 +1,670 @@
+2021/04/22 13:51:39 RIP: turn on r1-eth0
+2021/04/22 13:51:39 RIP: Redistribute new prefix 192.168.10.0/30
+2021/04/22 13:51:39 RIP: triggered update!
+2021/04/22 13:51:39 RIP: turn on r1-eth1
+2021/04/22 13:51:39 RIP: Redistribute new prefix 192.168.10.4/30
+2021/04/22 13:51:39 RIP: turn on r1-eth2
+2021/04/22 13:51:39 RIP: Redistribute new prefix 192.168.10.16/28
+2021/04/22 13:51:39 RIP: turn on r1-eth0
+2021/04/22 13:51:39 RIP: turn on r1-eth0
+2021/04/22 13:51:39 RIP: turn on r1-eth1
+2021/04/22 13:51:39 RIP: turn on r1-eth1
+2021/04/22 13:51:39 RIP: turn on r1-eth2
+2021/04/22 13:51:39 RIP: turn on r1-eth2
+2021/04/22 13:51:40 RIP: multicast join at r1-eth0
+2021/04/22 13:51:40 RIP: broadcast request to r1-eth0
+2021/04/22 13:51:40 RIP: SEND request to 192.168.10.3
+2021/04/22 13:51:40 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:51:40 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:51:40 RIP: triggered update!
+2021/04/22 13:51:40 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:51:40 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:51:40 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:51:40 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:40 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:40 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:40 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:40 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:40 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:51:40 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:51:40 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:51:40 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:51:40 RIP: multicast join at r1-eth1
+2021/04/22 13:51:40 RIP: broadcast request to r1-eth1
+2021/04/22 13:51:40 RIP: SEND request to 192.168.10.7
+2021/04/22 13:51:40 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:51:40 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:51:40 RIP: multicast join at r1-eth2
+2021/04/22 13:51:40 RIP: broadcast request to r1-eth2
+2021/04/22 13:51:40 RIP: SEND request to 192.168.10.31
+2021/04/22 13:51:40 RIP: rip_send_packet 192.168.10.17 > 192.168.10.31 (r1-eth2)
+2021/04/22 13:51:40 RIP: SEND to  192.168.10.31.520
+2021/04/22 13:51:40 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:40 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:40 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:40 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:41 RIP: update timer fire!
+2021/04/22 13:51:41 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:51:41 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:51:41 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:41 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:51:41 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:51:41 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:51:41 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:51:41 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:51:41 RIP: broadcast announce to 192.168.10.7 on r1-eth1
+2021/04/22 13:51:41 RIP: update routes to neighbor 192.168.10.7
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:41 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:51:41 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:51:41 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:51:41 RIP:   192.168.10.0 family 2 tag 0 metric 1
+2021/04/22 13:51:41 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:51:41 RIP: broadcast announce to 192.168.10.31 on r1-eth2
+2021/04/22 13:51:41 RIP: update routes to neighbor 192.168.10.31
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:41 RIP: RIPv1 mask check, 192.168.10.16/28 made it through
+2021/04/22 13:51:41 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:41 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:42 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:51:42 RIP: RECV REQUEST version 1 packet size 24
+2021/04/22 13:51:42 RIP:   0.0.0.0 family 0 tag 0 metric 16
+2021/04/22 13:51:42 RIP: update routes to neighbor 192.168.10.1
+2021/04/22 13:51:42 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:42 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:42 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:42 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:42 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:42 RIP: rip_send_packet 192.168.10.2 > 192.168.10.1 (r1-eth0)
+2021/04/22 13:51:42 RIP: SEND to  192.168.10.1.520
+2021/04/22 13:51:42 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:51:42 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:51:43 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:51:43 RIP: RECV RESPONSE version 1 packet size 24
+2021/04/22 13:51:43 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:51:43 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:51:43 RIP: Resultant route 192.168.10.8
+2021/04/22 13:51:43 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:51:43 RIP: triggered update!
+2021/04/22 13:51:43 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:51:43 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:51:43 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:43 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:51:43 RIP: broadcast announce to 192.168.10.7 on r1-eth1
+2021/04/22 13:51:43 RIP: update routes to neighbor 192.168.10.7
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:43 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:51:43 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:51:43 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:51:43 RIP:   192.168.10.8 family 2 tag 0 metric 2
+2021/04/22 13:51:43 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:51:43 RIP: broadcast announce to 192.168.10.31 on r1-eth2
+2021/04/22 13:51:43 RIP: update routes to neighbor 192.168.10.31
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:43 RIP: RIPv1 mask check, 192.168.10.16/28 made it through
+2021/04/22 13:51:43 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:51:44 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:51:44 RIP: RECV REQUEST version 1 packet size 24
+2021/04/22 13:51:44 RIP:   0.0.0.0 family 0 tag 0 metric 16
+2021/04/22 13:51:44 RIP: update routes to neighbor 192.168.10.6
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:51:44 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:51:44 RIP: rip_send_packet 192.168.10.5 > 192.168.10.6 (r1-eth1)
+2021/04/22 13:51:44 RIP: SEND to  192.168.10.6.520
+2021/04/22 13:51:44 RIP: SEND RESPONSE version 1 packet size 44
+2021/04/22 13:51:44 RIP:   192.168.10.0 family 2 tag 0 metric 1
+2021/04/22 13:51:44 RIP:   192.168.10.8 family 2 tag 0 metric 2
+2021/04/22 13:51:45 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:51:45 RIP: RECV RESPONSE version 1 packet size 44
+2021/04/22 13:51:45 RIP:   192.168.10.0 family 2 tag 0 metric 2
+2021/04/22 13:51:45 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:51:45 RIP: Subnetted route 192.168.10.0
+2021/04/22 13:51:45 RIP: Resultant route 192.168.10.0
+2021/04/22 13:51:45 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:51:45 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:51:45 RIP: Resultant route 192.168.10.8
+2021/04/22 13:51:45 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:52:10 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:52:10 RIP: RECV RESPONSE version 1 packet size 24
+2021/04/22 13:52:10 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:52:10 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:52:10 RIP: Resultant route 192.168.10.8
+2021/04/22 13:52:10 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:52:11 RIP: update timer fire!
+2021/04/22 13:52:11 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:52:11 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:52:11 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:52:11 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:52:11 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:52:11 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:52:11 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:52:11 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:52:11 RIP: broadcast announce to 192.168.10.7 on r1-eth1
+2021/04/22 13:52:11 RIP: update routes to neighbor 192.168.10.7
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:52:11 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:52:11 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:52:11 RIP: SEND RESPONSE version 1 packet size 44
+2021/04/22 13:52:11 RIP:   192.168.10.0 family 2 tag 0 metric 1
+2021/04/22 13:52:11 RIP:   192.168.10.8 family 2 tag 0 metric 2
+2021/04/22 13:52:11 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:52:11 RIP: broadcast announce to 192.168.10.31 on r1-eth2
+2021/04/22 13:52:11 RIP: update routes to neighbor 192.168.10.31
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:52:11 RIP: RIPv1 mask check, 192.168.10.16/28 made it through
+2021/04/22 13:52:11 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:52:11 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:52:14 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:52:14 RIP: RECV RESPONSE version 1 packet size 44
+2021/04/22 13:52:14 RIP:   192.168.10.0 family 2 tag 0 metric 2
+2021/04/22 13:52:14 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:52:14 RIP: Subnetted route 192.168.10.0
+2021/04/22 13:52:14 RIP: Resultant route 192.168.10.0
+2021/04/22 13:52:14 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:52:14 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:52:14 RIP: Resultant route 192.168.10.8
+2021/04/22 13:52:14 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:52:35 RIP: update timer fire!
+2021/04/22 13:52:35 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:52:35 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:52:35 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:52:35 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:52:35 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:52:35 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:52:35 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:52:35 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:52:35 RIP: broadcast announce to 192.168.10.7 on r1-eth1
+2021/04/22 13:52:35 RIP: update routes to neighbor 192.168.10.7
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:52:35 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:52:35 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:52:35 RIP: SEND RESPONSE version 1 packet size 44
+2021/04/22 13:52:35 RIP:   192.168.10.0 family 2 tag 0 metric 1
+2021/04/22 13:52:35 RIP:   192.168.10.8 family 2 tag 0 metric 2
+2021/04/22 13:52:35 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:52:35 RIP: broadcast announce to 192.168.10.31 on r1-eth2
+2021/04/22 13:52:35 RIP: update routes to neighbor 192.168.10.31
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:52:35 RIP: RIPv1 mask check, 192.168.10.16/28 made it through
+2021/04/22 13:52:35 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:52:35 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:52:46 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:52:46 RIP: RECV RESPONSE version 1 packet size 24
+2021/04/22 13:52:46 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:52:46 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:52:46 RIP: Resultant route 192.168.10.8
+2021/04/22 13:52:46 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:52:51 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:52:51 RIP: RECV RESPONSE version 1 packet size 44
+2021/04/22 13:52:51 RIP:   192.168.10.0 family 2 tag 0 metric 2
+2021/04/22 13:52:51 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:52:51 RIP: Subnetted route 192.168.10.0
+2021/04/22 13:52:51 RIP: Resultant route 192.168.10.0
+2021/04/22 13:52:51 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:52:51 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:52:51 RIP: Resultant route 192.168.10.8
+2021/04/22 13:52:51 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:53:11 RIP: update timer fire!
+2021/04/22 13:53:11 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:53:11 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:53:11 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:53:11 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:53:11 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:53:11 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:53:11 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:53:11 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:53:11 RIP: broadcast announce to 192.168.10.7 on r1-eth1
+2021/04/22 13:53:11 RIP: update routes to neighbor 192.168.10.7
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:53:11 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:53:11 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:53:11 RIP: SEND RESPONSE version 1 packet size 44
+2021/04/22 13:53:11 RIP:   192.168.10.0 family 2 tag 0 metric 1
+2021/04/22 13:53:11 RIP:   192.168.10.8 family 2 tag 0 metric 2
+2021/04/22 13:53:11 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:53:11 RIP: broadcast announce to 192.168.10.31 on r1-eth2
+2021/04/22 13:53:11 RIP: update routes to neighbor 192.168.10.31
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:53:11 RIP: RIPv1 mask check, 192.168.10.16/28 made it through
+2021/04/22 13:53:11 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:53:11 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:53:16 RIP: turn on r1-eth1
+2021/04/22 13:53:17 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:53:17 RIP: RECV RESPONSE version 1 packet size 24
+2021/04/22 13:53:17 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:53:17 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:53:17 RIP: Resultant route 192.168.10.8
+2021/04/22 13:53:17 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:53:17 RIP: multicast join at r1-eth1
+2021/04/22 13:53:17 RIP: broadcast request to r1-eth1
+2021/04/22 13:53:17 RIP: SEND request to 192.168.10.7
+2021/04/22 13:53:17 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:53:17 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:53:17 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:53:17 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:53:17 RIP: RECV RESPONSE version 1 packet size 44
+2021/04/22 13:53:17 RIP:   192.168.10.0 family 2 tag 0 metric 2
+2021/04/22 13:53:17 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:53:17 RIP: Subnetted route 192.168.10.0
+2021/04/22 13:53:17 RIP: Resultant route 192.168.10.0
+2021/04/22 13:53:17 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:53:17 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:53:17 RIP: Resultant route 192.168.10.8
+2021/04/22 13:53:17 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:53:25 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:53:25 RIP: RECV RESPONSE version 1 packet size 44
+2021/04/22 13:53:25 RIP:   192.168.10.0 family 2 tag 0 metric 2
+2021/04/22 13:53:25 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:53:25 RIP: Subnetted route 192.168.10.0
+2021/04/22 13:53:25 RIP: Resultant route 192.168.10.0
+2021/04/22 13:53:25 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:53:25 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:53:25 RIP: Resultant route 192.168.10.8
+2021/04/22 13:53:25 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:53:35 RIP: update timer fire!
+2021/04/22 13:53:35 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:53:35 RIP: broadcast announce to 192.168.10.3 on r1-eth0
+2021/04/22 13:53:35 RIP: update routes to neighbor 192.168.10.3
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:53:35 RIP: rip_send_packet 192.168.10.2 > 192.168.10.3 (r1-eth0)
+2021/04/22 13:53:35 RIP: SEND to  192.168.10.3.520
+2021/04/22 13:53:35 RIP: SEND RESPONSE version 1 packet size 24
+2021/04/22 13:53:35 RIP:   192.168.10.4 family 2 tag 0 metric 1
+2021/04/22 13:53:35 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:53:35 RIP: broadcast announce to 192.168.10.7 on r1-eth1
+2021/04/22 13:53:35 RIP: update routes to neighbor 192.168.10.7
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.0/30 made it through
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.4/30 made it through
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.8/30 made it through
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:53:35 RIP: rip_send_packet 192.168.10.5 > 192.168.10.7 (r1-eth1)
+2021/04/22 13:53:35 RIP: SEND to  192.168.10.7.520
+2021/04/22 13:53:35 RIP: SEND RESPONSE version 1 packet size 44
+2021/04/22 13:53:35 RIP:   192.168.10.0 family 2 tag 0 metric 1
+2021/04/22 13:53:35 RIP:   192.168.10.8 family 2 tag 0 metric 2
+2021/04/22 13:53:35 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:53:35 RIP: broadcast announce to 192.168.10.31 on r1-eth2
+2021/04/22 13:53:35 RIP: update routes to neighbor 192.168.10.31
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.0/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.4/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.8/30 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.16/28 considered for output
+2021/04/22 13:53:35 RIP: RIPv1 mask check, 192.168.10.16/28 made it through
+2021/04/22 13:53:35 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:53:35 RIP: ignore packet comes from myself (VRF default)
+2021/04/22 13:53:46 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:53:46 RIP: RECV RESPONSE version 1 packet size 24
+2021/04/22 13:53:46 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:53:46 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:53:46 RIP: Resultant route 192.168.10.8
+2021/04/22 13:53:46 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:54:00 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:54:00 RIP: RECV RESPONSE version 1 packet size 44
+2021/04/22 13:54:00 RIP:   192.168.10.0 family 2 tag 0 metric 2
+2021/04/22 13:54:00 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:54:00 RIP: Subnetted route 192.168.10.0
+2021/04/22 13:54:00 RIP: Resultant route 192.168.10.0
+2021/04/22 13:54:00 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:54:00 RIP: Subnetted route 192.168.10.8
+2021/04/22 13:54:00 RIP: Resultant route 192.168.10.8
+2021/04/22 13:54:00 RIP: Resultant mask 255.255.255.252
+2021/04/22 13:54:05 RIP: update timer fire!
+2021/04/22 13:54:05 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:54:05 RIP: multicast announce on r1-eth0 
+2021/04/22 13:54:05 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:54:05 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:54:05 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:05 RIP: SEND RESPONSE version 2 packet size 44
+2021/04/22 13:54:05 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:05 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:05 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:54:05 RIP: multicast announce on r1-eth1 
+2021/04/22 13:54:05 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:54:05 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:54:05 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:05 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:54:05 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:05 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:05 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:05 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:54:05 RIP: multicast announce on r1-eth2 
+2021/04/22 13:54:05 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:54:05 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:54:05 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:05 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:54:05 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:05 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:05 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:21 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:54:21 RIP: RECV RESPONSE version 1 packet size 24
+2021/04/22 13:54:21 RIP:   192.168.10.8 family 2 tag 0 metric 1
+2021/04/22 13:54:21 RIP:   packet's v1 doesn't fit to if version spec
+2021/04/22 13:54:23 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:54:23 RIP: RECV RESPONSE version 2 packet size 64
+2021/04/22 13:54:23 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:23 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:23 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:23 RIP: triggered update!
+2021/04/22 13:54:23 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:54:23 RIP: multicast announce on r1-eth0 
+2021/04/22 13:54:23 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:54:23 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:54:23 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:23 RIP: SEND RESPONSE version 2 packet size 24
+2021/04/22 13:54:23 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:23 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:54:23 RIP: multicast announce on r1-eth1 
+2021/04/22 13:54:23 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:54:23 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:54:23 RIP: multicast announce on r1-eth2 
+2021/04/22 13:54:23 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:54:23 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:54:23 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:23 RIP: SEND RESPONSE version 2 packet size 24
+2021/04/22 13:54:23 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:30 RIP: update timer fire!
+2021/04/22 13:54:30 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:54:30 RIP: multicast announce on r1-eth0 
+2021/04/22 13:54:30 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:54:30 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:54:30 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:30 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:54:30 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:30 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:30 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:30 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:54:30 RIP: multicast announce on r1-eth1 
+2021/04/22 13:54:30 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:54:30 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:54:30 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:30 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:54:30 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:30 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:30 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:30 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:54:30 RIP: multicast announce on r1-eth2 
+2021/04/22 13:54:30 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:54:30 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:54:30 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:30 RIP: SEND RESPONSE version 2 packet size 84
+2021/04/22 13:54:30 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:30 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:30 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:30 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:30 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:54:30 RIP: RECV RESPONSE version 2 packet size 44
+2021/04/22 13:54:30 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:30 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:49 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:54:49 RIP: RECV RESPONSE version 2 packet size 44
+2021/04/22 13:54:49 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:49 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:49 RIP: triggered update!
+2021/04/22 13:54:49 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:54:49 RIP: multicast announce on r1-eth0 
+2021/04/22 13:54:49 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:54:49 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:54:49 RIP: multicast announce on r1-eth1 
+2021/04/22 13:54:49 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:54:49 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:54:49 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:49 RIP: SEND RESPONSE version 2 packet size 24
+2021/04/22 13:54:49 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:49 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:54:49 RIP: multicast announce on r1-eth2 
+2021/04/22 13:54:49 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:54:49 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:54:49 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:54:49 RIP: SEND RESPONSE version 2 packet size 24
+2021/04/22 13:54:49 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:49 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:54:49 RIP: RECV RESPONSE version 2 packet size 24
+2021/04/22 13:54:49 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:54 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:54:54 RIP: RECV RESPONSE version 2 packet size 84
+2021/04/22 13:54:54 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:54 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:54 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:54:54 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:54 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:54:54 RIP: RECV RESPONSE version 2 packet size 84
+2021/04/22 13:54:54 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:54 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 3
+2021/04/22 13:54:54 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:54:54 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:00 RIP: update timer fire!
+2021/04/22 13:55:00 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:55:00 RIP: multicast announce on r1-eth0 
+2021/04/22 13:55:00 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:55:00 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:55:00 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:00 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:55:00 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:00 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:00 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:00 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:55:00 RIP: multicast announce on r1-eth1 
+2021/04/22 13:55:00 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:55:00 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:55:00 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:00 RIP: SEND RESPONSE version 2 packet size 84
+2021/04/22 13:55:00 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:00 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:00 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:00 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:00 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:55:00 RIP: multicast announce on r1-eth2 
+2021/04/22 13:55:00 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:55:00 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:55:00 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:00 RIP: SEND RESPONSE version 2 packet size 104
+2021/04/22 13:55:00 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:00 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:00 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:00 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:00 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:12 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:55:12 RIP: RECV RESPONSE version 2 packet size 64
+2021/04/22 13:55:12 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:12 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:12 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:21 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:55:21 RIP: RECV RESPONSE version 2 packet size 84
+2021/04/22 13:55:21 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:21 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:21 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:21 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:24 RIP: turn on r1-eth1
+2021/04/22 13:55:25 RIP: multicast join at r1-eth1
+2021/04/22 13:55:25 RIP: multicast request on r1-eth1
+2021/04/22 13:55:25 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:55:25 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:25 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:55:25 RIP: RECV RESPONSE version 2 packet size 84
+2021/04/22 13:55:25 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:25 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:25 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:25 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP: update timer fire!
+2021/04/22 13:55:27 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:55:27 RIP: multicast announce on r1-eth0 
+2021/04/22 13:55:27 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:55:27 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:55:27 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:27 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:55:27 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:27 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:55:27 RIP: multicast announce on r1-eth1 
+2021/04/22 13:55:27 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:55:27 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:55:27 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:27 RIP: SEND RESPONSE version 2 packet size 84
+2021/04/22 13:55:27 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:27 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:27 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:55:27 RIP: multicast announce on r1-eth2 
+2021/04/22 13:55:27 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:55:27 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:55:27 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:27 RIP: SEND RESPONSE version 2 packet size 104
+2021/04/22 13:55:27 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:27 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:27 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:27 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:42 RIP: RECV packet from 192.168.10.1 port 520 on r1-eth0 (VRF default)
+2021/04/22 13:55:42 RIP: RECV RESPONSE version 2 packet size 64
+2021/04/22 13:55:42 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:42 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:42 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:49 RIP: RECV packet from 192.168.10.6 port 520 on r1-eth1 (VRF default)
+2021/04/22 13:55:49 RIP: RECV RESPONSE version 2 packet size 84
+2021/04/22 13:55:49 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:49 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:49 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:49 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP: update timer fire!
+2021/04/22 13:55:53 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:55:53 RIP: multicast announce on r1-eth0 
+2021/04/22 13:55:53 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:55:53 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:55:53 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:53 RIP: SEND RESPONSE version 2 packet size 64
+2021/04/22 13:55:53 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:53 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:55:53 RIP: multicast announce on r1-eth1 
+2021/04/22 13:55:53 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:55:53 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:55:53 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:53 RIP: SEND RESPONSE version 2 packet size 84
+2021/04/22 13:55:53 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:53 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:53 RIP: SEND UPDATE to r1-eth2 ifindex 2
+2021/04/22 13:55:53 RIP: multicast announce on r1-eth2 
+2021/04/22 13:55:53 RIP: update routes on interface r1-eth2 ifindex 2
+2021/04/22 13:55:53 RIP: rip_send_packet 192.168.10.17 > 224.0.0.9 (r1-eth2)
+2021/04/22 13:55:53 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:53 RIP: SEND RESPONSE version 2 packet size 104
+2021/04/22 13:55:53 RIP:   192.168.10.0/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP:   192.168.10.4/30 -> 0.0.0.0 family 2 tag 0 metric 1
+2021/04/22 13:55:53 RIP:   192.168.10.8/30 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:53 RIP:   192.168.10.32/27 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:53 RIP:   192.168.10.40/29 -> 0.0.0.0 family 2 tag 0 metric 2
+2021/04/22 13:55:56 RIP: turn off r1-eth2
+2021/04/22 13:55:56 RIP: triggered update!
+2021/04/22 13:55:56 RIP: SEND UPDATE to r1-eth0 ifindex 3
+2021/04/22 13:55:56 RIP: multicast announce on r1-eth0 
+2021/04/22 13:55:56 RIP: update routes on interface r1-eth0 ifindex 3
+2021/04/22 13:55:56 RIP: rip_send_packet 192.168.10.2 > 224.0.0.9 (r1-eth0)
+2021/04/22 13:55:56 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:56 RIP: SEND RESPONSE version 2 packet size 24
+2021/04/22 13:55:56 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 16
+2021/04/22 13:55:56 RIP: SEND UPDATE to r1-eth1 ifindex 4
+2021/04/22 13:55:56 RIP: multicast announce on r1-eth1 
+2021/04/22 13:55:56 RIP: update routes on interface r1-eth1 ifindex 4
+2021/04/22 13:55:56 RIP: rip_send_packet 192.168.10.5 > 224.0.0.9 (r1-eth1)
+2021/04/22 13:55:56 RIP: SEND to  224.0.0.9.520
+2021/04/22 13:55:56 RIP: SEND RESPONSE version 2 packet size 24
+2021/04/22 13:55:56 RIP:   192.168.10.16/28 -> 0.0.0.0 family 2 tag 0 metric 16
+2021/04/22 13:55:57 RIP: turn off r1-eth0
+2021/04/22 13:55:57 RIP: turn off r1-eth1
+2021/04/22 13:55:58 RIP: Terminating on signal
+2021/04/22 13:55:58 RIP: rip_vrf_disable: VRF default(0) disabled
+2021/04/22 13:55:58 RIP: rip_vrf_delete: VRF deleted: default(0)
